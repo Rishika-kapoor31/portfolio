@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+.navbar{
+    height: 60px;
+    width: 1427px;
+    background-color: #A0522D;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+}
+a:hover {
+    color: black;
+    background-color: darkgray;
+}
+.navbar-item{
+    padding-top: 20px;
+    }
+header {
+    background-image: url("bg.jpg");
+    height:1000px;
+    background-repeat: no-repeat;
+}
+.home{
+    margin-left: 40px;
+    margin-top: 500px;
+    color: sandybrown;
+}
+.about{
+    height: 400px;
+    padding: 100px;
+    background-color:gray ;
+    width: fit-content;
+}
+.row1{
+    margin-left: 50px;
+}
+.row2{
+    margin-left: 700px;
+    width: fit-content;
+    height: 60px;
+}
+.box{
+    position: absolute;
+}
+.box2{
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-bottom: -100px;
+}
+#portfolio{
+    background-color: burlywood;
+    height: 500px;
+    padding: 30px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        background-color: darkseagreen;
+    }
+    to {background-color: sandybrown;}
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row{
+    justify-content: center;
+}
+#footer{
+    background-color: #A0522D;
+    height: 40px;
+    width: 1390px;
+    padding: 20px;
+}
+.icon{
+    margin-left: 350px;
+}
+#contacts{
+    background-color: gray;
+}
